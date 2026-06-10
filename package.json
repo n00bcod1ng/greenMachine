@@ -1,0 +1,27 @@
+{
+  "name": "greenmachine",
+  "version": "2.0.0",
+  "description": "A CLI tool to paint text and pixel art onto your GitHub contribution graph using backdated commits.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "greenmachine": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "contribution-graph",
+    "cli",
+    "git",
+    "pixel-art",
+    "backdated-commits"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1",
+    "simple-git": "^3.36.0"
+  }
+}
